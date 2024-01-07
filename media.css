@@ -1,0 +1,41 @@
+body{
+    background-color: red;
+}
+
+/* services */
+#services{
+    flex-direction: column;
+    
+}
+.btn{
+    font-size: 12px;
+}
+#services .box {
+    padding: 10px;
+    /* height: 50%; */
+}
+/* home */
+#home{
+    display: flex;
+    height: 370px;
+    padding: 3px 28px;
+}
+#home p{
+    font-size: 13px;
+    overflow: hidden;
+}
+#home::before{
+    height: 480px;
+}
+/* clients */
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 66px;
+} 
+
+#contact-box form{
+    width: 100%;
+    
+}
